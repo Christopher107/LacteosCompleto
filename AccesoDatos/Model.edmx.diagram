@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="911f1a3f6d8b46edab7d17bfa8f6f477" Name="Diagram1">
+        <EntityTypeShape EntityType="HorasExtrasLacteosOsornoModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HorasExtrasLacteosOsornoModel.HorasExtras" Width="1.5" PointX="8.25" PointY="1.25" />
+        <EntityTypeShape EntityType="HorasExtrasLacteosOsornoModel.Seccion" Width="1.5" PointX="3.75" PointY="2.875" />
+        <EntityTypeShape EntityType="HorasExtrasLacteosOsornoModel.Trabajador" Width="1.5" PointX="6" PointY="1.125" />
+        <EntityTypeShape EntityType="HorasExtrasLacteosOsornoModel.Usuarios" Width="1.5" PointX="6" PointY="4.25" />
+        <EntityTypeShape EntityType="HorasExtrasLacteosOsornoModel.VW_suma_horas" Width="1.5" PointX="0.75" PointY="0.75" />
+        <AssociationConnector Association="HorasExtrasLacteosOsornoModel.FK__HorasExtras__Rut__33D4B598" />
+        <AssociationConnector Association="HorasExtrasLacteosOsornoModel.FK__Usuarios__Seccio__5DCAEF64" />
+        <AssociationConnector Association="HorasExtrasLacteosOsornoModel.FK_Trabajador_Seccion" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
